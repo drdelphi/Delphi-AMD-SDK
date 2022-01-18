@@ -44,7 +44,7 @@ const
   ATI_DLL = 'atiadlxy.dll';
 
 var
-  hDLL: Integer;
+  hDLL: hModule;
   ADL_context: Pointer;
   ADL_Fan_Control_Get: TADL_Fan_Control_Get;
   ADL_Fan_Control_Set: TADL_Fan_Control_Set;
